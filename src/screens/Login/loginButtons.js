@@ -1,6 +1,6 @@
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet, View ,Image, Alert} from "react-native";
-import color from "../appStyles/ColorStyles";
+import color from "../../appStyles/ColorStyles";
 import googleLogo from "../assets/googleLogo.png"
 
 

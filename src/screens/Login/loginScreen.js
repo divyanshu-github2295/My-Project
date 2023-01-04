@@ -2,7 +2,7 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 import { LoginButtons } from "./loginButtons";
 import { LoginForm } from "./loginForm";
-import colors from "../appStyles/ColorStyles"
+import colors from "../../appStyles/ColorStyles"
 
 export const LoginScreen = ()=>{
     return(

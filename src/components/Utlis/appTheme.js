@@ -4,10 +4,10 @@ import Ionicons from "react-native-vector-icons/Ionicons";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 import { useDispatch, useSelector } from "react-redux";
 import colors from "../../appStyles/ColorStyles"
-import { themeSwitch } from "../../slice.js/theme";
+import { themeSwitch } from "../../slice/theme";
 
 
-const AppTheme = ()=>{
+export const AppTheme = ()=>{
     const isDarkMode = useColorScheme() === "dark";
 
     const backGroundColor = ()=>{}

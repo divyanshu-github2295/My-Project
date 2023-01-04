@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet} from "react-native";
 import { HomeImage } from "./HomeImage";
-import colors from "../appStyles/ColorStyles"
+import colors from "../../appStyles/ColorStyles"
 
 export const HomeScreen = ()=>{
     return(

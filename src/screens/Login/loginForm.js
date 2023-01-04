@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { View, Text, TouchableOpacity, Alert, StyleSheet, TextInput} from "react-native";
-import colors from "../appStyles/ColorStyles";
+import colors from "../../appStyles/ColorStyles";
 import { LoginButtons } from "./loginButtons";
 
 export const LoginForm = ()=>{
